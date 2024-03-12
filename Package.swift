@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "NGCollectionHelpers",
+    platforms: [.iOS(.v17), .macOS(.v14), .visionOS(.v1), .watchOS(.v10), .tvOS(.v17)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
